@@ -26,7 +26,7 @@ public class SendEmail {
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "1Gc2QAMGbjLZA7yLdfND");
+                return new PasswordAuthentication(from, "pass");
             }
         });
 
