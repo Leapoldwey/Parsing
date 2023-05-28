@@ -12,8 +12,8 @@ import java.util.Properties;
 
 public class SendEmail {
     public static void send() {
-        final String from = "mihail_mihailow@list.ru";
-        String to = "mihail_mihailow@list.ru";
+        final String from = "from";
+        String to = "to";
         String host = "smtp.mail.ru";
         String smtpPort = "465";
 
